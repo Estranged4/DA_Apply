@@ -1,8 +1,9 @@
 # Phan Vu Hai Long - Data Analysis Portfolio
 
 ## 🖐️About
-Hi! I'm Long. 
-This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics
+Hi! I'm Long.
+
+This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics.
 
 <br>
 
@@ -25,7 +26,7 @@ In this section I will list data analytics projects briefly describing the techn
 - **Skills**: Data cleaning, Data aggregation, Detecting problems, SQL Querying, 
 - **Tools**: BigQuery SQL
 - **Results**: Used SQL query to aggregate data to answer questions and prepare to further analysis
-- **Requirements**: [`Ecommerce Project Instruction.xlsx`](https://github.com/Estranged4/DA_Apply/blob/main/1.%20SQL%20Big%20Query%20-%20Ecommerce/Ecommerce%20Project%20Instruction.xlsx)
+- **Project markdown**: [`README.md`](https://github.com/Estranged4/DA_Apply/blob/main/1.%20SQL%20Big%20Query%20-%20Ecommerce/README.md)
 - **Code**:  [`SQL BigQuery Project.sql`](https://github.com/Estranged4/DA_Apply/blob/main/1.%20SQL%20Big%20Query%20-%20Ecommerce/SQL%20Big%20Query%20Project.sql)
 
 ### OS Collection Performance Analysis
