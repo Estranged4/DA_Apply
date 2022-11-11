@@ -3,6 +3,7 @@
 ## 🖐️About
 Hi! I'm Long. 
 This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics
+
 <br>
 
 ## 📃Table of content
