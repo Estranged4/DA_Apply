@@ -1,17 +1,23 @@
 # Phan Vu Hai Long - Data Analysis Portfolio
 
-## About
-Hi! I'm Long. This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics
+## 🖐️About
+Hi! I'm Long. 
+This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics
 <br>
 
-## Table of content
-- [About](#about)
-- [Projects](#Projects)
-- [Certifications](#Certifications)
-- [Contacts](#Contacts)
+## 📃Table of content
+- [About](#%EF%B8%8Fabout)
+- [Projects](#projects)
+	+ [Ecommerce Analysis](#ecommerce-analysis)
+	+ [OS Collection Performance Analysis](#os-collection-performance-analysis)
+	+ [Global Superstore](#global-superstore)
+	+ [Pet Box Subscription](#pet-box-subscription)
+- [Certifications](#certifications)
+- [Contacts](#%EF%B8%8Fcontacts)
 <br>
 
-## Projects
+## 🧑‍🏭Projects
+In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 ### Ecommerce Analysis
 - **Type of Analysis**: Descriptive
 - **Description**: Data in Ecommerce was massive. I used SQL in Big Query to collect, organize and connect data from separate worksheets to calculate precise information for different reports.
@@ -52,16 +58,24 @@ Hi! I'm Long. This is my repository to showcase skills, share projects and track
 - **Presentation Notebook**: [`pet_box_subscription_presentation.ipynb`](https://github.com/Estranged4/DA_Apply/blob/main/4.%20Python%20-%20Pet%20Box%20Subscription/pet_box_subscription_presentation.ipynb "pet_box_subscription_presentation.ipynb")
 <br>
 
-## Certifications
-- [Google Data Analysis Professional Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/Datacamp%20DA%20Associate%20Certificate.pdf "Datacamp DA Associate Certificate.pdf")  
+## 🎓Certifications
+I believe that the best way to showcase skills is by doing and sharing jobs, but sometimes certificates appear to be an indirect result 💪
+
+So here is a list of the ones I have (in order with the date of completion):
+
+- [Google Data Analysis Professional Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/Datacamp%20DA%20Associate%20Certificate.pdf "Datacamp DA Associate Certificate.pdf")
+
 	Certified in Nov 2021 ([view online](https://www.coursera.org/account/accomplishments/professional-cert/RKQE3G4BVAC7))
-- [Hackerrank SQL Advanced Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/HackerRank%20SQL%20Certificate.pdf "HackerRank SQL Certificate.pdf") 
-	Certified in Aug 2022 ([view online](https://www.hackerrank.com/certificates/d91046e824aa))
+- [Hackerrank SQL Advanced Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/HackerRank%20SQL%20Certificate.pdf "HackerRank SQL Certificate.pdf")
+
+ 	Certified in Aug 2022 ([view online](https://www.hackerrank.com/certificates/d91046e824aa))
+	
 - [Datacamp DA Associate Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/Datacamp%20DA%20Associate%20Certificate.pdf) 
+
 	Certified in Nov 2022 ([view online](https://www.datacamp.com/certificate/DAA0016405623722))
 <br>
 
-## Contacts
+## ☎️Contacts
 -   LinkedIn:  [@phanvuhailong](https://www.linkedin.com/in/phanvuhailong/)
 -   Telegram:  [@hailong0229](https://t.me/hailong0229)
 -   E-mail:  [e.hailongphan@gmail.com](mailto:e.hailongphan@gmail.com)
