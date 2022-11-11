@@ -34,7 +34,7 @@ ORDER BY
 	2 DESC
 LIMIT 4;
 
--- Query 3: Revenue by traffic source by week, by month in June 2017
+-- Query 03: Revenue by traffic source by week, by month in June 2017
 #standardSQL
 WITH 
 rev_month AS (
@@ -56,7 +56,7 @@ rev_week AS (
 		trafficSource.SOURCE AS source,
 		safe_divide(SUM(totals.totalTransactionRevenue), 1000000) AS revenue
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_201706 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_201706*`
 	GROUP BY
 		source,
 		time_type,
@@ -86,7 +86,7 @@ pur_yes AS (
 		SUM(totals.pageviews) AS total_yes,
 		fullVisitorId
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_ *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_*`
 	WHERE
 		_table_suffix BETWEEN '20170601' AND '20170731'
 		AND totals.transactions >= 1
@@ -101,7 +101,7 @@ pur_no AS (
 		SUM(totals.pageviews) AS total_no,
 		fullVisitorId
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_ *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_*`
 	WHERE
 		_table_suffix BETWEEN '20170601' AND '20170731'
 		AND totals.transactions IS NULL
@@ -113,7 +113,7 @@ pur_no AS (
 SELECT
 	pur_yes.month, 
 	round(avg(total_yes), 8) AS avg_pageviews_purchase,
-	round(avg(pur_no), 8) AS avg_pageviews_non_purchase
+	round(avg(total_no), 8) AS avg_pageviews_non_purchase
 FROM
 	pur_yes
 JOIN pur_no ON
@@ -132,7 +132,7 @@ sum_cte AS (
 		SUM(totals.transactions) AS total,
 		fullVisitorId
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_201707 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_201707*`
 	WHERE
 		totals.transactions >= 1
 	GROUP BY
@@ -157,7 +157,7 @@ WITH sum_cte AS (
 		SUM(totals.totaltransactionRevenue) AS total_revenue,
 		visitId
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_201707 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_201707*`
 	WHERE
 		totals.transactions IS NOT NULL
 	GROUP BY
@@ -181,7 +181,7 @@ WITH cte_unnest AS (
 		fullVisitorId,
 		v2ProductName,
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_201707 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_201707*`
 	CROSS JOIN UNNEST(hits)
 	CROSS JOIN UNNEST(product)
 	WHERE
@@ -192,7 +192,7 @@ SELECT
 	v2ProductName AS other_purchased_products,
 	SUM(productQuantity) AS quantity
 FROM
-	`bigquery-public-data.google_analytics_sample.ga_sessions_201707 *`
+	`bigquery-public-data.google_analytics_sample.ga_sessions_201707*`
 CROSS JOIN UNNEST(hits)
 CROSS JOIN UNNEST(product)
 WHERE
@@ -217,7 +217,7 @@ type2 AS (
 		format_date("%Y%m",	parse_date("%Y%m%d", date)) AS MONTH,
 		COUNT(v2ProductName) AS num_product_view
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_2017 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_2017*`
 	CROSS JOIN UNNEST(hits)
 	CROSS JOIN UNNEST(product)
 	WHERE
@@ -233,7 +233,7 @@ type3 AS (
 		format_date("%Y%m",	parse_date("%Y%m%d", date)) AS MONTH,
 		COUNT(v2ProductName) AS num_addtocart
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_2017 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_2017*`
 	CROSS JOIN UNNEST(hits)
 	CROSS JOIN UNNEST(product)
 	WHERE
@@ -247,7 +247,7 @@ type6 AS (
 		format_date("%Y%m",	parse_date("%Y%m%d", date)) AS MONTH,
 		COUNT(v2ProductName) AS num_purchase
 	FROM
-		`bigquery-public-data.google_analytics_sample.ga_sessions_2017 *`
+		`bigquery-public-data.google_analytics_sample.ga_sessions_2017*`
 	CROSS JOIN UNNEST(hits)
 	CROSS JOIN UNNEST(product)
 	WHERE
