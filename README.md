@@ -1,14 +1,15 @@
 # Phan Vu Hai Long - Data Analysis Portfolio
 
-## 🖐️About
+## 🖐️About me
 Hi! I'm Long.
 
+I'm interested in applying my knowledge to data-driven decision-making to help the business owner make better decisions.
 This is my repository to showcase skills, share projects and track my progress in Data Analytics / Business Intelligence related topics.
 
 <br>
 
 ## 📃Table of content
-- [About](#%EF%B8%8Fabout)
+- [About me](#%EF%B8%8Fabout-me)
 - [Projects](#projects)
 	+ [Ecommerce Analysis](#ecommerce-analysis)
 	+ [OS Collection Performance Analysis](#os-collection-performance-analysis)
