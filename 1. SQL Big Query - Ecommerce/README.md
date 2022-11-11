@@ -22,5 +22,4 @@
  The output should be calculated in product level.
 
 #### [The online answers & query results can be found here](https://console.cloud.google.com/bigquery?sq=475769980748:06771e5806fb492d96e6bf74cad7a124)
-
 (Due to Google BigQuery's terms & conditions, a log-in Google account & a temporary project should be needed to view this link)
