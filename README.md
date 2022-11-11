@@ -51,6 +51,7 @@ Hi! I'm Long. This is my repository to showcase skills, share projects and track
 - **EDA Code**: [`pet_box_subscription_python.ipynb`](https://github.com/Estranged4/DA_Apply/blob/main/4.%20Python%20-%20Pet%20Box%20Subscription/pet_box_subscription_python.ipynb "pet_box_subscription_python.ipynb")
 - **Presentation Notebook**: [`pet_box_subscription_presentation.ipynb`](https://github.com/Estranged4/DA_Apply/blob/main/4.%20Python%20-%20Pet%20Box%20Subscription/pet_box_subscription_presentation.ipynb "pet_box_subscription_presentation.ipynb")
 <br>
+
 ## Certifications
 - [Google Data Analysis Professional Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/Datacamp%20DA%20Associate%20Certificate.pdf "Datacamp DA Associate Certificate.pdf")  
 	Certified in Nov 2021 ([view online](https://www.coursera.org/account/accomplishments/professional-cert/RKQE3G4BVAC7))
@@ -58,6 +59,8 @@ Hi! I'm Long. This is my repository to showcase skills, share projects and track
 	Certified in Aug 2022 ([view online](https://www.hackerrank.com/certificates/d91046e824aa))
 - [Datacamp DA Associate Certificate](https://github.com/Estranged4/DA_Apply/blob/main/Certificate/Datacamp%20DA%20Associate%20Certificate.pdf) 
 	Certified in Nov 2022 ([view online](https://www.datacamp.com/certificate/DAA0016405623722))
+<br>
+
 ## Contacts
 -   LinkedIn:  [@phanvuhailong](https://www.linkedin.com/in/phanvuhailong/)
 -   Telegram:  [@hailong0229](https://t.me/hailong0229)
